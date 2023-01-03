@@ -9,10 +9,10 @@ export const SectionTechnology = () => {
       </h2>
       <br />
 
-      <div className="carousel rounded-box gap-7 py-8 grilla md:grid md:grid-cols-4">
+      <div className="carousel rounded-box gap-7 py-8 md:grid md:grid-cols-4">
         {
           codigos.map(item => (
-            <CardTechnology name={item.name} id={item.id} image={item.image} primero={item.primero} segundo={item.segundo} />
+            <CardTechnology name={item.name} id={item.id} image={item.image} primero={item.primero} segundo={item.segundo} key={item.id}/>
           ))
         }
 
