@@ -5,7 +5,7 @@ export const SectionHero = () => {
   const github = "https://github.com/HSgz";
   return (
     <section className="container mx-auto">
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero min-h-[90vh] bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse pt-0">
           <Image
             src={lifeImage}
@@ -26,8 +26,9 @@ export const SectionHero = () => {
               </a>
               .
             </p>
+            <a href="#technology">
             <button className="btn btn-primary flex gap-2">
-              <a href="#technology">Empezar</a>
+              Continuar
               <svg
                 className="w-6 h-5 animate-bounce"
                 fill="none"
@@ -43,6 +44,7 @@ export const SectionHero = () => {
                 ></path>
               </svg>
             </button>
+            </a>
           </div>
         </div>
       </div>

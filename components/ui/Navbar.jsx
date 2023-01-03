@@ -11,10 +11,12 @@ export const Navbar = () => {
   const theme = ["Dark", "Light"]
 
   return (
-    <div className="navbar bg-base-100 h-16">
+    <div className="navbar bg-base-100 h-20">
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">
+          <Link href="/">
           <Image src="/favicon.svg" width={60} height={40} className="opacity-50 dark:opacity-100" alt="logo"/>
+          </Link>
         </button>
       </div>
       <div className="flex-1">
